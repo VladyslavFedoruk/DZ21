@@ -108,13 +108,13 @@ body {
   background-image: url(../images/audi.jfif);
   background-size: contain;
   background-repeat: no-repeat;
-  animation: card-rotate-back 0.9s 15s linear infinite alternate;
+  animation: card-rotate-back 0.9s linear infinite alternate;
 }
 .third-card .card-side.front {
   background-image: url(../images/lexus.jfif);
   background-size: contain;
   background-repeat: no-repeat;
-  animation: card-rotate-front 0.9s 15s linear infinite alternate;
+  animation: card-rotate-front 0.9s linear infinite alternate;
 }
 @keyframes card-rotate-front {
   100% {
