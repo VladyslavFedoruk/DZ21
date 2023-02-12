@@ -1,0 +1,128 @@
+body {
+  background-color: bisque;
+}
+
+.card-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.first-card .card {
+  position: relative;
+  height: 300px;
+  margin: 10px;
+}
+.first-card .card-side {
+  height: 300px;
+  border-radius: 15px;
+  transition: all 0.8s ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+}
+.first-card .card-side.back {
+  transform: rotateY(-180deg);
+  background-image: url(/images/Simpsons_FamilyPicture.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: card-rotate-back 1.5s linear infinite alternate;
+}
+.first-card .card-side.front {
+  background-image: url(/images/South_Park_Season_8.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: card-rotate-front 1.5s linear infinite alternate;
+}
+@keyframes card-rotate-front {
+  100% {
+    transform: rotateY(180deg);
+  }
+}
+@keyframes card-rotate-back {
+  100% {
+    transform: rotateY(0deg);
+  }
+}
+
+.second-card .card {
+  position: relative;
+  height: 300px;
+  margin: 10px;
+}
+.second-card .card-side {
+  height: 300px;
+  border-radius: 15px;
+  transition: all 0.8s ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+}
+.second-card .card-side.back {
+  transform: rotateY(-180deg);
+  background-image: url(/images/The_Walking_Dead_Season_Two.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: card-rotate-back 2s infinite alternate;
+}
+.second-card .card-side.front {
+  background-image: url(/images/thelast_of_us.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: card-rotate-front 2s infinite alternate;
+}
+@keyframes card-rotate-front {
+  100% {
+    transform: rotateY(180deg);
+  }
+}
+@keyframes card-rotate-back {
+  100% {
+    transform: rotateY(0deg);
+  }
+}
+
+.third-card .card {
+  position: relative;
+  height: 300px;
+  margin: 10px;
+}
+.third-card .card-side {
+  height: 300px;
+  border-radius: 15px;
+  transition: all 0.8s ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+}
+.third-card .card-side.back {
+  transform: rotateY(-180deg);
+  background-image: url(/images/audi.jfif);
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: card-rotate-back 0.9s 15s linear infinite alternate;
+}
+.third-card .card-side.front {
+  background-image: url(/images/lexus.jfif);
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: card-rotate-front 0.9s 15s linear infinite alternate;
+}
+@keyframes card-rotate-front {
+  100% {
+    transform: rotateY(180deg);
+  }
+}
+@keyframes card-rotate-back {
+  100% {
+    transform: rotateY(0deg);
+  }
+}/*# sourceMappingURL=style.css.map */
