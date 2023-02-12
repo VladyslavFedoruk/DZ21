@@ -25,13 +25,13 @@ body {
 }
 .first-card .card-side.back {
   transform: rotateY(-180deg);
-  background-image: url(/images/Simpsons_FamilyPicture.png);
+  background-image: url(../images/Simpsons_FamilyPicture.png);
   background-size: contain;
   background-repeat: no-repeat;
   animation: card-rotate-back 1.5s linear infinite alternate;
 }
 .first-card .card-side.front {
-  background-image: url(/images/South_Park_Season_8.jpg);
+  background-image: url(../images/South_Park_Season_8.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   animation: card-rotate-front 1.5s linear infinite alternate;
@@ -65,13 +65,13 @@ body {
 }
 .second-card .card-side.back {
   transform: rotateY(-180deg);
-  background-image: url(/images/The_Walking_Dead_Season_Two.png);
+  background-image: url(../images/The_Walking_Dead_Season_Two.png);
   background-size: contain;
   background-repeat: no-repeat;
   animation: card-rotate-back 2s infinite alternate;
 }
 .second-card .card-side.front {
-  background-image: url(/images/thelast_of_us.png);
+  background-image: url(../images/thelast_of_us.png);
   background-size: contain;
   background-repeat: no-repeat;
   animation: card-rotate-front 2s infinite alternate;
@@ -105,13 +105,13 @@ body {
 }
 .third-card .card-side.back {
   transform: rotateY(-180deg);
-  background-image: url(/images/audi.jfif);
+  background-image: url(../images/audi.jfif);
   background-size: contain;
   background-repeat: no-repeat;
   animation: card-rotate-back 0.9s 15s linear infinite alternate;
 }
 .third-card .card-side.front {
-  background-image: url(/images/lexus.jfif);
+  background-image: url(../images/lexus.jfif);
   background-size: contain;
   background-repeat: no-repeat;
   animation: card-rotate-front 0.9s 15s linear infinite alternate;
